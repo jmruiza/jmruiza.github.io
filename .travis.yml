@@ -4,10 +4,14 @@ node_js:
 cache:
   directories:
   - node_modules
-script:           # List of commands to build our project
-- npm test
-- npm run build
-deploy:           # List of commands for deploy
+
+# List of commands to build our project
+script:           
+  - npm test
+  - npm run build
+
+# List of commands for deploy
+deploy:           
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
