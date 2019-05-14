@@ -4,6 +4,13 @@ Deploy nodejs/react web app (created with create-react-app) in [Pages Github](ht
 
 ## Instructions
 
+
+1. Create github repository and clone locally.
+    * Create ```gh-pages``` branch
+2. Generate a Github token and set in travis repository settings.
+3. Create a .travis.yml file.
+4. Commit and push
+
 ## Resources
 * [Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/)
 * [NodeJS with Github Pages and Travis CI](https://robertleggett.blog/2018/04/06/nodejs-with-github-pages-and-travis-ci/)
