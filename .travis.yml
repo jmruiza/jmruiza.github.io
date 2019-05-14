@@ -8,7 +8,7 @@ script:
 - npm run build
 # List of commands after your build has succeeded
 # after_success:  
-
+# -
 # List of commands for deploy
 deploy:
 provider: pages
