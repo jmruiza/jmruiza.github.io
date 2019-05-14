@@ -1,7 +1,7 @@
 language: node_js
 # List of any install commands required before script execution
 install:
-- npm install
+- npm install --silent
 # List of commands to build our project
 script:
 - npm run test

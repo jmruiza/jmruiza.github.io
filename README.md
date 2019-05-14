@@ -1,6 +1,8 @@
 # Github and travis test
 
-Deploy nodejs web app in [Pages Github](https://pages.github.com/) using [travisCI](https://travis-ci.com/)
+Deploy nodejs/react web app (created with create-react-app) in [Pages Github](https://pages.github.com/) using [travisCI](https://travis-ci.com/).
+
+## Instructions
 
 ## Resources
 * [Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/)
