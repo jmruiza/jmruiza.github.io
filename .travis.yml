@@ -5,6 +5,10 @@ cache:
   directories:
   - node_modules
 
+# List of any install commands required before script execution
+install:
+  - npm install --silent 
+
 # List of commands to build our project
 script:           
   - npm test
