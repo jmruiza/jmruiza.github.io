@@ -10,8 +10,6 @@ Deploy nodejs/react web app (created with create-react-app) in [Pages Github](ht
 3. Create a .travis.yml file.
 4. Commit and push.
 
-HOLA
-
 ## Resources
 * [Travis CI: Tutorial](https://docs.travis-ci.com/user/tutorial/)
 * [Travis CI: GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/)
