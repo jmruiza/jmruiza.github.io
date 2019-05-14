@@ -1,12 +1,17 @@
 language: node_js 
-install:          # List of any install commands required before script execution
-- npm install --silent 
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
 script:           # List of commands to build our project
-- npm run test
+- npm test
 - npm run build
 deploy:           # List of commands for deploy
-provider: pages
-skip-cleanup: true
-github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
-keep-history: true
-local-dir: build
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
+  local-dir: build
+  keep-history: true
+  on: 
+    branch: master
