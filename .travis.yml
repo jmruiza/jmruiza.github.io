@@ -1,0 +1,18 @@
+language: node_js
+# List of any install commands required before script execution
+install:
+- npm install
+# List of commands to build our project
+script:
+- npm run test
+- npm run build
+# List of commands after your build has succeeded
+# after_success:  
+
+# List of commands for deploy
+deploy:
+provider: pages
+skip-cleanup: true
+github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure
+keep-history: true
+local-dir: build
